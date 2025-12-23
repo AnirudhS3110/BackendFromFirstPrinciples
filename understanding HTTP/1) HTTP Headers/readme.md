@@ -22,3 +22,5 @@
 - - ETag
 
 ##### Security Headers:
+
+## <a href="../2) HTTP Methods/readme.md">2. HTTP MEthods </a>

@@ -13,4 +13,4 @@
 - - 2) The request content type should be other than: application/ , multipart/form-data or text/plain
 - - 3) the Request should have Non simple headers like: Authorization, Custom Header.
 
-    
+## <a href="../2) HTTP Methods/readme.md"> Previous </a>
