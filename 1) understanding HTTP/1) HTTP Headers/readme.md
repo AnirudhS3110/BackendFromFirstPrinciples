@@ -23,4 +23,4 @@
 
 ##### Security Headers:
 
-## <a href="../2) HTTP Methods/readme.md">2. HTTP MEthods </a>
+## <a href="../2) HTTP Methods/readme.md">Next: 2. HTTP MEthods </a>
