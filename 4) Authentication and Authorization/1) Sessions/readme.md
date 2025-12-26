@@ -7,4 +7,15 @@
 - This Led to the Concept of SESSION
 
 ## Session:
-- Session Provided a way to Establish  Server Side Context in the browser for each user
+- Session Provided a way to Establish  **Server Side Context** in the browser for each user
+- Whenever teh user logged in , the Server Created a Session ID which was stored along with teh metadata of the user in a **persistent store**, which can be a DB or Redis.
+### How Sessions Worked:
+- The Session ID was Sent to the Client as a cookie and all the Requests made by the Cient needs to have the cookie as it has the Session ID, 
+- This Session ID enabled the Server to have some kind of memory for the user.
+- These Sessions were Short Lived, like 15 mins
+- Initally Session iNformations were stored as FILES in Server, but resulted in Scalability Issues
+- This led to use of DBs to store Session Information, which gave persistent look ups across SERVER RESTARTS.
+#### In the Distributed Storage Era
+- Session Infos were Stored in Redis/Memcache, as in memory looks ups are faster than DB look ups
+## <a href= "../readme.md">Prev: History of auth</a>
+## <a href="../2) JWTs/readme.md">Next: JWT</a>
